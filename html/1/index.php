@@ -29,5 +29,5 @@ if ($_SESSION['is_admin'] || $is_correct_auth_data){
 <form method='post' action='/1/'>
 	username: <input type='text' name='user' /><br>
 	password: <input type='text' name='pass' /><br>
-	<input type="submit" value="送信" />
+	<input type='submit' value='送信' />
 </form>
